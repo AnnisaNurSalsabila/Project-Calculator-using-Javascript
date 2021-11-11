@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    background: radial-gradient(#df9855,#ffe989, rgb(250, 191, 176))no-repeat fixed;
+    padding: 50px 0px;
+}
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: fixed;
+    background: #000;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 35px;
+    box-shadow: 0 0 35px;
+    height: 100vh;
+    width: 360px;
+    block-size: 85vh;
+}
+button.clear {
+    background: #cc89b2;
+    color: #96036a;
+}
+
+button.clear:hover{
+    background: #443d42 ;
+    color: #cc89b2;
+}
+
+button.equal {
+    width: 98%;
+    background: #16010f;
+}
+button.equal:hover{
+	background: #cc89b2;
+}
+
+input[type="text"] {
+    width: 325px;
+    height: 60px;
+    border: 1px solid #000;
+    padding: 10px 10px;
+    font-size: 20px;
+    background: #000000;
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-family: cursive;
+    margin-top: 5px;
+    color: #f0cae1;
+    border-bottom: 2px solid #a72675;
+}
+button {
+    padding: 10px 20px;
+    width: 80px;
+    height: 45px;
+    margin: 2px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: cursive;
+    background: #16010f;
+    border: none;
+    color: #96036a;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.6;
+    ;
+}
+button:hover{
+	background: #805470;
+    opacity: 0.9;
+    transform: scale(0.9);
+}
+button.zero {
+    width:98%;
+}
+
